@@ -11,9 +11,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "torch",
-    "torchvision", 
+    "torchvision",
     "torchaudio",
     "unsloth>=2025.8.1",
+    "python-dotenv>=1.1.1",
 ]
 
 [dependency-groups]
