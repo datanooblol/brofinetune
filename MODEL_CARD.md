@@ -1,3 +1,32 @@
+---
+language:
+- en
+library_name: transformers
+pipeline_tag: text-generation
+tags:
+- conversational
+- chatbot
+- casual
+- bro
+- unsloth
+- llama
+- lora
+license: llama3.2
+base_model: unsloth/Llama-3.2-3B-Instruct
+model-index:
+- name: Bro Chatbot
+  results: []
+datasets:
+- custom
+widget:
+- text: "What's the meaning of life?"
+  example_title: "Philosophy Question"
+- text: "How do I learn Python?"
+  example_title: "Learning Question"
+- text: "I'm feeling stressed about work."
+  example_title: "Support Question"
+---
+
 # Bro Chatbot - Fine-tuned Llama 3.2 3B
 
 A conversational AI chatbot with a distinctive "bro" personality - casual, chilled, and supportive. Fine-tuned using Unsloth for efficient training.
