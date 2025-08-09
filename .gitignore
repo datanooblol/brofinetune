@@ -6,7 +6,9 @@ outputs/
 unsloth_compiled_cache/
 # C extensions
 *.so
-
+_unsloth_sentencepiece_temp/
+bro-chatbot-gguf/
+llama.cpp/
 # Distribution / packaging
 .Python
 build/
